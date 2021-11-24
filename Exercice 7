@@ -1,0 +1,15 @@
+<?php
+
+        $x= intval(readline ("Ecrire un nombre de depart pour commencez la multiplication \n" ) );
+       $multi=1;
+        for ($i=1; $i<=$x; $i++) {
+            if ($i==1)
+            $multi=$i;
+            else 
+            $multi*=$i;
+
+            //$somme=$somme+$i;
+
+        }
+        echo ("la somme de $x tout en reculant est: $multi \n");
+?>
