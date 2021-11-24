@@ -1,0 +1,24 @@
+<?php
+             
+             $i=1;
+             $p=1;
+             $post=0;
+             do
+             {
+                $chx =intval(readline ("Entrez le nombre numero $p:\n" ) );
+                if ($p==1){
+                    $max=$chx;
+                    $post=$p;
+                   }
+                   else
+                   if ($max<$chx)
+                   {
+                    $max=$chx;
+                    $post=$p;
+                   }
+                   $p++;
+             }
+             while ($chx!=0);
+             echo ("le plus grand des nombres est : $max \n");
+             echo ("sa position est : $post");
+?>
