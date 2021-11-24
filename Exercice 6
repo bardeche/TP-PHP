@@ -1,0 +1,15 @@
+<?php
+
+        $x= intval(readline ("Ecrire un nombre de depart pour commencez la somme tout en reculons \n" ) );
+       $somme=1;
+        for ($i=1; $i<=$x; $i++) {
+            if ($i==1)
+            $somme=$i;
+            else 
+            $somme+=$i;
+
+            //$somme=$somme+$i;
+
+        }
+        echo ("la somme de $x tout en reculant est: $somme \n");
+?>
