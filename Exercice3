@@ -1,0 +1,17 @@
+<?php
+
+        $x= intval(readline ("Ecrire un nombre de depart \n" ) );
+        echo ("les dix chiffres suivant $x sont : \n");
+        $i=1;  
+        
+        while ($i<=10)
+        {
+
+            echo ++$x ;
+            echo ("\n");
+            $i++;
+        }
+            
+
+    
+?>
