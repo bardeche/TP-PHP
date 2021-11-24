@@ -1,0 +1,11 @@
+<?php
+
+        $x= intval(readline ("Ecrire un nombre de depart pour commencez la multiplication \n" ) );
+       
+        for ($i=1; $i<=10; $i++) {
+            $result= $x*$i;
+
+            echo ("$x*$i= $result \n");
+
+        }
+?>
