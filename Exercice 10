@@ -1,0 +1,29 @@
+<?php
+
+    $i=1;
+    $somme=0;
+    $rest=0;
+
+    do 
+    {
+        $val = intval(readline ("prix du produit en fonction $i ou entier 0 pour arreter la saisi : "));
+        if ($val == 0)
+        break;
+        if ($val==1)
+        $V = "Euro";
+        else 
+        $V = "Euro";
+    }
+    while ($val = 0);
+    echo ("\n --------- Payement du client----------\n");
+    $pay= intval(readline("Entrez le montant verser par le client"));
+    if ($pay ==1)
+    $vp = "Euro";
+    else 
+    $vp = "Euros";
+    $vp = $pay - $somme;
+
+            
+
+    
+?>
